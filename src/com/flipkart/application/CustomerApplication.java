@@ -6,7 +6,7 @@ package com.flipkart.application;
 import com.flipkart.business.CustomerService;
 
 /**
- * @author saksh
+ * @author HP
  *
  */
 public class CustomerApplication {
@@ -16,10 +16,9 @@ public class CustomerApplication {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//Create the instance of customer service
-		CustomerService service=new CustomerService();
+		//create the instance of customer service
+		CustomerService service = new CustomerService();
 		service.createCustomer();
-		
 		service.updateCustomer();
 		service.deleteCustomer();
 		service.listCustomer();
